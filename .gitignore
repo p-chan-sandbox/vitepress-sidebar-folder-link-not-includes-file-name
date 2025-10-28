@@ -1,0 +1,8 @@
+# cache
+.vitepress/cache
+
+# dependencies
+node_modules
+
+# logs
+*.log
