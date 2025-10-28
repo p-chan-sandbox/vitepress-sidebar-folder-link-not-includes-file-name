@@ -37,7 +37,7 @@ jobs:
       - name: Install dependencies
         run: pnpm i
       - name: Build
-        run: pnpm docs:build
+        run: pnpm docs:build --base vitepress-sidebar-folder-link-not-includes-file-name
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
